@@ -22,5 +22,8 @@ class CasoPalindromosTest {
         assertTrue(CasoPalindromos.esPalindromo("ana"));
         assertTrue(CasoPalindromos.esPalindromo("12344321"));
         assertTrue(CasoPalindromos.esPalindromo(""));
+        assertFalse(CasoPalindromos.esPalindromo("Esto No es un palindromo"));
+        assertTrue(CasoPalindromos.esPalindromo(""));
+        assertTrue(CasoPalindromos.esPalindromo("        "));
     }
 }
