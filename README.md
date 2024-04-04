@@ -28,12 +28,12 @@ public static boolean esPalindromo(String cadena){
 
 ¿Qué consideraciones tomaron en cuenta?
 ----------------------------------------
-Si las palabra tiene letras en mayus o minus podria no funcionar, como tambien por los espacios en blanco
+Si las palabra tienen letras en mayus o minus podria no funcionar, como tambien por los espacios en blanco
 
 ¿Qué mejoró en su método?
 -------------------------
 Se le hace una "limpieza" al string eliminando todos los espacios en blanco y transformando todas las letras a lowercase
- y posteriormente se invierte y compara
+, posteriormente se invierte y compara
 ```java
 public class CasoPalindromos{
     public static boolean esPalindromo(String cadena){
