@@ -32,6 +32,9 @@ Si las palabra tiene letras en mayus o minus podria no funcionar, como tambien p
 -------------------------
 Se le hace una "limpieza" al string eliminando todos los espacios en blanco y transformando todas las letras a lowercase
  y posteriormente se invierte y compara
+```java
+
+```
 
 ¿Qué rol jugaron las pruebas en mejorar su código?
 -----------------------------------------------------
