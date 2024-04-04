@@ -11,8 +11,8 @@ function esPalindromo(cadena) {
 ```
 - La funcion recibe un parametro cadena  
 - Inicializa la varibale resultado como un string vacio  
-- Suponiendo que cadena es de tipo string, split('') transforma a cadena en un array de caracteres, invierte el array con el metodo  
-reverse y vuelve a unirlo en un string con join('') y le asigna este valor a la variable resultado  
+- Suponiendo que cadena es de tipo string, split('') transforma a cadena en un array de caracteres, invierte el array 
+con el metodo reverse y vuelve a unirlo en un string con join('') y le asigna este valor a la variable resultado  
 - Retorna True si las cadenas son iguales y False si son distintas  
 
 Mi versión
@@ -31,6 +31,8 @@ Si las palabra tiene letras en mayus o minus podria no funcionar, como tambien p
 ¿Qué mejoró en su método?
 -------------------------
 Se le hace una "limpieza" al string eliminando todos los espacios en blanco y transformando todas las letras a lowercase
+ y posteriormente se invierte y compara
 
 ¿Qué rol jugaron las pruebas en mejorar su código?
 -----------------------------------------------------
+Lograr identificar el problema de logíca recién mencionado par su posterior corrección
