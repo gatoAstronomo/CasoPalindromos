@@ -19,6 +19,8 @@ class CasoPalindromosTest {
     void esPalindromo() {
         assertTrue(CasoPalindromos.esPalindromo("La tele letal"));
         assertTrue(CasoPalindromos.esPalindromo("Anita lava la tina"));
+        assertTrue(CasoPalindromos.esPalindromo("ana"));
+        assertTrue(CasoPalindromos.esPalindromo("12344321"));
         assertTrue(CasoPalindromos.esPalindromo(""));
     }
 }
