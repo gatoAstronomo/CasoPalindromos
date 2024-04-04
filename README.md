@@ -17,7 +17,7 @@ function esPalindromo(cadena) {
 con el metodo reverse y vuelve a unirlo en un string con join('') y le asigna este valor a la variable resultado  
 - Retorna True si las cadenas son iguales y False si son distintas  
 
-Mi versión
+Version equivalente en Java
 ---------- 
 ```java
 public static boolean esPalindromo(String cadena){
