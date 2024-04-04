@@ -33,9 +33,16 @@ Si las palabra tiene letras en mayus o minus podria no funcionar, como tambien p
 Se le hace una "limpieza" al string eliminando todos los espacios en blanco y transformando todas las letras a lowercase
  y posteriormente se invierte y compara
 ```java
+public class CasoPalindromos{
+    public static boolean esPalindromo(String cadena){
+        cadena = cadena.toLowerCase().replaceAll("\\s","");
 
+        StringBuilder invertida = new StringBuilder(cadena).reverse();
+        return  cadena.contentEquals(invertida);
+    }
+}
 ```
 
 ¿Qué rol jugaron las pruebas en mejorar su código?
 -----------------------------------------------------
-Lograr identificar el problema de logíca recién mencionado par su posterior corrección
+Lograr identificar el problema logíco recién mencionado para su posterior corrección
