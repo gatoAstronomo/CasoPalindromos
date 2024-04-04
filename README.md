@@ -1,5 +1,7 @@
  Caso Palíndromos - Pruebas Unitarias
 ======================================
+Arturo Rivas López
+
 ¿Cómo funciona el código JavaScript?
 --------------------------------------
 ```js
